@@ -1,0 +1,9 @@
+.app {
+    background-color: lightgray;
+    border-radius: 30px;
+    display: block;
+    height: 300px;
+    width: 300px;
+    margin: 20px auto;
+    position: relative;
+}

@@ -1,0 +1,44 @@
+.icon-project {
+    background-color: white;
+    border-radius: 50%;
+    border: 0px solid transparent;
+    font-size: 40px;
+    position: absolute;
+    height: 64px;
+    width: 64px;
+    top: 142px;
+    left: 118px;
+}
+
+.icon-project-💩 {
+    background-color: #EC407A;
+}
+
+.icon-project-🐌  {
+    background-color: #EC407A;
+}
+
+.icon-project-💰 {
+    background-color: #EC407A;
+}
+
+.icon-project-💩 span,
+.icon-project-🐌 span,
+.icon-project-💰 span {
+    position: absolute;
+}
+
+.icon-project-💩 span {
+    top: -2px;
+    left: 4px;
+}
+
+.icon-project-🐌 span {
+    top: 2px;
+    left: 6px;
+}
+
+.icon-project-💰 span {
+    top: 4px;
+    left: 9px;
+}

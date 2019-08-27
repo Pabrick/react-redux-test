@@ -1,0 +1,60 @@
+.toggle-project-button {
+    border-radius: 30px;
+    height: 60px;
+    position: absolute;
+    width: 200px;
+}
+.toggle-project-button button {
+    background-color: transparent;
+    border-radius: 50%;
+    border: 0px solid transparent;
+    color: white;
+    height: 60px;
+    text-transform: uppercase;
+    width: 60px;
+}
+.toggle-project-button button:hover {
+    background-color: white;
+    color: black;
+}
+
+.toggle-project-button-cheap {
+    top: 75px;
+    left: 50px;
+    -webkit-transform: rotate(-40deg);
+    transform: rotate(90deg);
+}
+
+.toggle-project-button-cheap button { transform: rotate(-90deg); }
+
+.toggle-project-button-cheap button,
+.toggle-project-button-cheap--enabled {
+    background-color: #EF5350;
+}
+
+.toggle-project-button-fast {
+    bottom: 50px;
+    right: -4px;
+    transform: rotate(40deg);
+    text-align: right;
+}
+
+.toggle-project-button-fast button { transform: rotate(-40deg); }
+
+.toggle-project-button-fast button,
+.toggle-project-button-fast--enabled {
+    background-color: #42A5F5;
+}
+
+.toggle-project-button-good {
+    bottom: 50px;
+    left: -4px;
+    transform: rotate(-40deg);
+}
+
+.toggle-project-button-good button { transform: rotate(40deg); }
+
+.toggle-project-button-good button,
+.toggle-project-button-good--enabled {
+    background-color: #66BB6A;
+}

@@ -1,4 +1,8 @@
-export const setFast = (value) => ({
+export const setFast = () => ({
     type: 'SET_FAST',
-    fast: value
+    general: {
+        cheap: true,
+        fast: true,
+        good: false
+    }
 });

@@ -1,4 +1,8 @@
-export const setGood = (value) => ({
+export const setGood = () => ({
     type: 'SET_GOOD',
-    good: value
+    general: {
+        cheap: false,
+        fast: true,
+        good: true
+    }
 });
