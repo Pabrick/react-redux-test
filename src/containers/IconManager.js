@@ -3,11 +3,11 @@ import { connect } from 'react-redux';
 import IconProject from '../components/IconProject';
 
 const getIcon = (general) => {
-  if(general.cheap && general.fast) {
+  if(!general.good) {
     return "💩";
-  } else if(general.fast && general.good) {
+  } else if(!general.cheap) {
     return "💰";
-  } else if(general.good && general.cheap) {
+  } else if(!general.fast) {
     return "🐌";
   }
 }

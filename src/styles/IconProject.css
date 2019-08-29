@@ -8,18 +8,7 @@
     width: 64px;
     top: 142px;
     left: 118px;
-}
-
-.icon-project-💩 {
-    background-color: #EC407A;
-}
-
-.icon-project-🐌  {
-    background-color: #EC407A;
-}
-
-.icon-project-💰 {
-    background-color: #EC407A;
+    transition: .2s all ease-in;
 }
 
 .icon-project-💩 span,
@@ -28,17 +17,10 @@
     position: absolute;
 }
 
-.icon-project-💩 span {
-    top: -2px;
-    left: 4px;
-}
+.icon-project-💩 { background-color: #4DD0E1; }
+.icon-project-🐌 { background-color: #FFEE58; }
+.icon-project-💰 { background-color: #AB47BC; }
 
-.icon-project-🐌 span {
-    top: 2px;
-    left: 6px;
-}
-
-.icon-project-💰 span {
-    top: 4px;
-    left: 9px;
-}
+.icon-project-💩 span { top: -2px; left: 4px; }
+.icon-project-🐌 span { top: 2px; left: 6px; }
+.icon-project-💰 span { top: 4px; left: 9px; }
